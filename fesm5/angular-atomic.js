@@ -63,7 +63,7 @@ var BannerLargeComponent = /** @class */ (function () {
     BannerLargeComponent.decorators = [
         { type: Component, args: [{
                     selector: 'ml-banner-large',
-                    template: "<p>banner-large works!</p>\n",
+                    template: "<p>banner-large works!</p>\nbutton : <at-button></at-button>\n",
                     styles: [""]
                 }] }
     ];
