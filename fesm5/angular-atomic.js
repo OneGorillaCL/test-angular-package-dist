@@ -22,32 +22,6 @@ var AngularAtomicService = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var AngularAtomicComponent = /** @class */ (function () {
-    function AngularAtomicComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    AngularAtomicComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AngularAtomicComponent.decorators = [
-        { type: Component, args: [{
-                    selector: 'lib-angular-atomic',
-                    template: "\n    <p>\n      angular-atomic works!\n    </p>\n  "
-                }] }
-    ];
-    /** @nocollapse */
-    AngularAtomicComponent.ctorParameters = function () { return []; };
-    return AngularAtomicComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
 var ButtonComponent = /** @class */ (function () {
     function ButtonComponent() {
     }
@@ -107,9 +81,9 @@ var AngularAtomicModule = /** @class */ (function () {
     }
     AngularAtomicModule.decorators = [
         { type: NgModule, args: [{
-                    declarations: [AngularAtomicComponent, ButtonComponent, BannerLargeComponent],
+                    declarations: [ButtonComponent, BannerLargeComponent],
                     imports: [],
-                    exports: [AngularAtomicComponent]
+                    exports: [ButtonComponent, BannerLargeComponent]
                 },] }
     ];
     return AngularAtomicModule;
@@ -125,5 +99,5 @@ var AngularAtomicModule = /** @class */ (function () {
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { AngularAtomicComponent, AngularAtomicModule, AngularAtomicService, ButtonComponent as ɵa, BannerLargeComponent as ɵb };
+export { AngularAtomicModule, AngularAtomicService, ButtonComponent as ɵa, BannerLargeComponent as ɵb };
 //# sourceMappingURL=angular-atomic.js.map

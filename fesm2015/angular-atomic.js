@@ -20,31 +20,6 @@ AngularAtomicService.ctorParameters = () => [];
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class AngularAtomicComponent {
-    constructor() { }
-    /**
-     * @return {?}
-     */
-    ngOnInit() {
-    }
-}
-AngularAtomicComponent.decorators = [
-    { type: Component, args: [{
-                selector: 'lib-angular-atomic',
-                template: `
-    <p>
-      angular-atomic works!
-    </p>
-  `
-            }] }
-];
-/** @nocollapse */
-AngularAtomicComponent.ctorParameters = () => [];
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
 class ButtonComponent {
     constructor() { }
     /**
@@ -93,9 +68,9 @@ class AngularAtomicModule {
 }
 AngularAtomicModule.decorators = [
     { type: NgModule, args: [{
-                declarations: [AngularAtomicComponent, ButtonComponent, BannerLargeComponent],
+                declarations: [ButtonComponent, BannerLargeComponent],
                 imports: [],
-                exports: [AngularAtomicComponent]
+                exports: [ButtonComponent, BannerLargeComponent]
             },] }
 ];
 
@@ -109,5 +84,5 @@ AngularAtomicModule.decorators = [
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { AngularAtomicComponent, AngularAtomicModule, AngularAtomicService, ButtonComponent as ɵa, BannerLargeComponent as ɵb };
+export { AngularAtomicModule, AngularAtomicService, ButtonComponent as ɵa, BannerLargeComponent as ɵb };
 //# sourceMappingURL=angular-atomic.js.map

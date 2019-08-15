@@ -26,32 +26,6 @@
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
-    var AngularAtomicComponent = /** @class */ (function () {
-        function AngularAtomicComponent() {
-        }
-        /**
-         * @return {?}
-         */
-        AngularAtomicComponent.prototype.ngOnInit = /**
-         * @return {?}
-         */
-        function () {
-        };
-        AngularAtomicComponent.decorators = [
-            { type: core.Component, args: [{
-                        selector: 'lib-angular-atomic',
-                        template: "\n    <p>\n      angular-atomic works!\n    </p>\n  "
-                    }] }
-        ];
-        /** @nocollapse */
-        AngularAtomicComponent.ctorParameters = function () { return []; };
-        return AngularAtomicComponent;
-    }());
-
-    /**
-     * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     var ButtonComponent = /** @class */ (function () {
         function ButtonComponent() {
         }
@@ -111,15 +85,14 @@
         }
         AngularAtomicModule.decorators = [
             { type: core.NgModule, args: [{
-                        declarations: [AngularAtomicComponent, ButtonComponent, BannerLargeComponent],
+                        declarations: [ButtonComponent, BannerLargeComponent],
                         imports: [],
-                        exports: [AngularAtomicComponent]
+                        exports: [ButtonComponent, BannerLargeComponent]
                     },] }
         ];
         return AngularAtomicModule;
     }());
 
-    exports.AngularAtomicComponent = AngularAtomicComponent;
     exports.AngularAtomicModule = AngularAtomicModule;
     exports.AngularAtomicService = AngularAtomicService;
     exports.ɵa = ButtonComponent;
